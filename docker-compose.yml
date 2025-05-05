@@ -14,7 +14,7 @@ services:
              python manage.py runserver 0.0.0.0:8000"
     environment:
       - DB_HOST=db
-      - DB_NAME=devDB
+      - DB_NAME=devdb
       - DB_USER=devuser
       - DB_PASS=123
     depends_on:
