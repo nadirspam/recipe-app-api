@@ -1,3 +1,5 @@
-Django>=3.2.4,<3.3
-djangorestframework>=3.12.4,<3.13
-psycopg2>=2.8.6,<2.9
+Django>=5.2,<5.3
+djangorestframework>=3.15.2,<3.16
+psycopg2-binary>=2.9.3,<2.10  # Switched to psycopg2-binary
+drf-spectacular>=0.27.2,<0.28
+Pillow>=10.4.0,<10.5
